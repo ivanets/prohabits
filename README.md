@@ -24,4 +24,4 @@ Install [Docker Compose](http://docs.docker.com/compose/) on your system.
 7. Application now availaible at [http://localhost:4200/](http://localhost:4200/)
 
 ## DB Architecture
-<img src="https://github.com/ivanets/prohabits/pro_habits_mysql_arch.png?raw=true">
+<img src="https://github.com/ivanets/prohabits/blob/master/pro_habits_mysql_arch.png?raw=true">
