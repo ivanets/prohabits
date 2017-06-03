@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="row header">
+    <div class="col-md-12 ">
+      <h3>Journal Library</h3>
+      <p>Lorem ipsum dolor sit amet, nam et viris persequeris comprehensam, ut rebum audire sea, est te primis voluptatibus. Nisl stet volumus in pro. Quod veri verterem sed id. Eum id eros recusabo.</p>
+      <a routerLink="/journal/edit" class="btn btn-default">Write a journal</a>
+    </div>
+  </div>
+  <div class="row" *ngIf="!!journals">
+    <div class="col-md-12">
+      <app-journal-item [journal]="journal" *ngFor="let journal of journals"></app-journal-item>
+    </div>
+  </div>
+</div>

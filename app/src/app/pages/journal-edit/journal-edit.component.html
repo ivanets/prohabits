@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="row header">
+    <div class="col-md-12 ">
+      <h3>Journal Library</h3>
+      <p>Lorem ipsum dolor sit amet, nam et viris persequeris comprehensam, ut rebum audire sea, est te primis voluptatibus. Nisl stet volumus in pro. Quod veri verterem sed id. Eum id eros recusabo.</p>
+      <a href="#" class="btn btn-default">Write a journal</a>
+    </div>
+  </div>
+  <div class="row body">
+    <div class="col-md-12">
+      <h4>Possible Topic</h4>
+      <p>Think of a new tradition to start in the office that celebrates a win for the team. Next, get some coworkers advice and thoughts on the idea. Consider implementing the tradition after the next success.</p>
+      <textarea placeholder="Start Typing" [(ngModel)]="journal.body"></textarea>
+      <div class="right">
+        <a class="btn btn-default draft" (click)="draft()">Save and draft</a>
+        <a class="btn btn-default save" (click)="save()">Save</a>
+      </div>
+    </div>
+  </div>
+</div>

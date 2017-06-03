@@ -1,0 +1,17 @@
+<div class="item">
+  <div class="row" *ngIf="!item.empty">
+    <div class="col-md-12">
+      <img src="/assets/img/{{item.icon}}.png" alt="">
+    </div>
+  </div>
+  <div class="row" *ngIf="!item.empty">
+    <div class="col-md-12">
+      <h2>{{item.count}}</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p>{{item.text}}</p>
+    </div>
+  </div>
+</div>

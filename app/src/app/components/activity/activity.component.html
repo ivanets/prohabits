@@ -1,0 +1,14 @@
+<div class="card">
+  <div class="header">
+    <div class="info">ACTIVITY</div>
+    <div class="step"><a href="">SEE MORE</a></div>
+  </div>
+  <div class="body">
+    <div class="description">
+      <div class="list">
+        <app-activity-first-item [item]="first"></app-activity-first-item>
+        <app-activity-item [item]="item" *ngFor="let item of list"></app-activity-item>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="card" *ngIf="!!quote">
+  <div class="body">
+    <div class="description">
+      {{quote.body}}
+    </div>
+  </div>
+  <div class="footer">
+    <div class="info">
+      <img src="{{quote.picture}}" alt="">
+    </div>
+    <div class="step">{{quote.author}}</div>
+  </div>
+</div>

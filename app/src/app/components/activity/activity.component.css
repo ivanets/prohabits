@@ -1,0 +1,65 @@
+.card {
+  background: white;
+  border-radius: 5px;
+  color: rgba(119,139,162,1.0);
+  margin: 10px 10px 50px;
+  box-shadow: -1px 1px 5px rgba(119,139,162,0.05);
+}
+.card .header {
+  border-bottom: 1px solid rgba(243,246,249,1.0);
+  padding: 20px 30px;
+}
+.card .header .info {
+  display: inline-block;
+  font-size: 13px;
+  color: rgba(119,139,163,1.0);
+  text-align: left;
+  letter-spacing: 1px;
+  line-height: 16px;
+  min-width: 190px;
+}
+.card .header .info a, .card .header .info a:hover {
+  text-decoration: none;
+}
+.card .header .step {
+  display: inline-block;
+  font-size: 13px;
+  color: rgba(74,93,128,1.0);
+  text-align: right;
+  letter-spacing: 1px;
+  line-height: 16px;
+}
+
+.card .body {
+  padding: 5px 30px 10px;
+}
+
+.card .body .name {
+  min-width: 279px;
+  height: auto;
+  width: auto;
+  font-size: 22px;
+  text-align: left;
+  line-height: 26px;
+}
+
+.card .body .description {
+  font-size: 18px;
+  text-align: left;
+  line-height: 26px;
+  padding: 20px 0;
+}
+
+.card .body .btn{
+  background: rgba(0,189,155,1.0);
+  height: 48px;
+  width: 197px;
+  position: absolute;
+  border-radius: 5px;
+  color: rgba(255,255,255,1.0);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  line-height: 35px;
+  border: none;
+}

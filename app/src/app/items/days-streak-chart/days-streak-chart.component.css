@@ -1,0 +1,65 @@
+
+.chart {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  pointer-events:none;
+}
+
+.chart chart {
+  width: 140px;
+  height: 140px;
+}
+
+.chart{
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 120px;
+  z-index: 2;
+}
+
+.chart .round{
+  position: absolute;
+  background: white;
+  width: 124px;
+  height: 124px;
+  border-radius: 100%;
+  margin-top: 13px;
+  margin-left: 8px;
+  z-index: 4;
+}
+
+.chart .round h1{
+  margin-top: 30px;
+  text-align: center;
+  width: 100%;
+  color: rgba(253,180,77,1.0);
+}
+.chart .round p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80px;
+  word-wrap: break-word;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 15px;
+}
+.chart .icon{
+  position: absolute;
+  z-index: 5;
+  margin-left: 100px;
+  margin-top: 15px;
+  background: white;
+  border-radius: 100%;
+  box-shadow: 1px 3px 10px rgba(253,180,77,0.5);
+  width: 40px;
+  height: 40px;
+}
+.chart .icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 5px;
+  margin-top: 5px;
+}

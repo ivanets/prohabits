@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.btn-margin {
+  margin-top: 7px
+}
+
+body {
+  background: rgba(243,246,249,1.0)!important;
+  font-family: 'Domus-Regular',serif;
+  color: rgba(119,139,162,1.0);
+}

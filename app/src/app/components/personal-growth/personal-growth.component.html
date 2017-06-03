@@ -1,0 +1,12 @@
+<div class="card" *ngIf="!!data">
+  <div class="header">
+    <div class="info">YOUR GROWTH</div>
+    <div class="step"><a href="#">SEE MORE</a></div>
+  </div>
+  <div class="body">
+    <div class="description">
+      <app-days-completed-chart [days]="data.completed"></app-days-completed-chart>
+      <app-days-streak-chart [days]="data.streak"></app-days-streak-chart>
+    </div>
+  </div>
+</div>

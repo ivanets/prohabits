@@ -1,0 +1,48 @@
+.header-center{
+  min-width: 768px;
+  max-width: 768px;
+  min-height: 99px;
+  max-height: 99px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  border: none;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:768px;
+  height:99px;
+  box-shadow: -1px 1px 5px rgba(119,139,162,0.05);
+  margin-bottom: 50px;
+}
+.brand img {
+  width: 68px;
+  height: 68px;
+}
+
+.content {
+  width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ph-button-icon, .ph-button-icon:hover {
+  text-decoration: none;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.ph-button-icon img {
+  width: 22px;
+  height: 22px;
+}
+span{
+  color: rgba(119,139,163,1.0);
+}
+
+.center-buttons {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 30px;
+  flex: 3;
+}

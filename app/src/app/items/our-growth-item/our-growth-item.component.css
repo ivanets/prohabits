@@ -1,0 +1,16 @@
+.item{
+  padding: 0 15px;
+}
+.item img {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.item h2{
+  font-size: 28px;
+  margin: 10px 0;
+}
+.item p{
+  font-size: 11px;
+}

@@ -1,0 +1,13 @@
+<div class="card" *ngIf="!!data">
+  <div class="header">
+    <div class="info">OUR GROWTH</div>
+    <div class="step"><a href="">SEE MORE</a></div>
+  </div>
+  <div class="body">
+    <div class="row" *ngFor="let row of data">
+      <div class="col-md-6" *ngFor="let item of row">
+        <app-our-growth-item [item]="item"></app-our-growth-item>
+      </div>
+    </div>
+  </div>
+</div>

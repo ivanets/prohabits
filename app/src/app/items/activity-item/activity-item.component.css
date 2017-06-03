@@ -1,0 +1,26 @@
+
+.item {
+  padding-top: 10px;
+}
+.item .avatar img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: 100%;
+}
+.item .info {
+  padding-left: 0;
+  padding-right: 0;
+}
+.item .info .col-md-8 h2{
+  font-size: 15px;
+  margin: 0px 0;
+}
+.item .info .col-md-4 p{
+  font-size: 9px;
+  margin: -2px 0;
+}
+.item .info .col-md-12 p{
+  font-size: 11px;
+  margin: 0;
+}

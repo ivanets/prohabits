@@ -1,0 +1,19 @@
+.item {
+  color: rgba(119,139,162,1.0);
+  margin: 50px;
+  border: 1px solid #e5e5e5;
+  padding: 5px;
+}
+.item .btn{
+  background: rgba(35,156,226,1.0);
+  height: 30px;
+  width: 135px;
+  border-radius: 2px;
+  color: rgba(255,255,255,1.0);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  line-height: 19px;
+  border: none;
+  float: right;
+}
